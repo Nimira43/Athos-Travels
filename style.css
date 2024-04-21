@@ -48,3 +48,7 @@ body{
 .back-dark {
     background-color: black;
 }
+
+.form-container {
+    background-color: khaki;
+}

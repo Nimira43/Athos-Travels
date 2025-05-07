@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./styles/input.css -o ./styles/output.css --watch"
+    "watch": "npx tailwindcss -i ./styles/input.css -o ./dist/output.css --watch"
   },
   "author": "Nick Rabone",
   "license": "ISC",

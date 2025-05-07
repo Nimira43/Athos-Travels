@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  font-family: 'Playfair', serif;
+  font-weight: 300;
+}
+
+.logo { 
+  font-family: 'Pacifico', cursive;
+}
+

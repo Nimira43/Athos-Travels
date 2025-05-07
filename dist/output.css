@@ -577,12 +577,24 @@ html {
   margin: 0px;
 }
 
+.m-auto{
+  margin: auto;
+}
+
 .ml-1{
   margin-left: 0.25rem;
 }
 
 .ml-auto{
   margin-left: auto;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
 }
 
 .flex{
@@ -671,6 +683,33 @@ html {
   background-color: url;
 }
 
+.bg-rock{
+  --tw-bg-opacity: 1;
+  background-color: rgb(94 100 114 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black\/40{
+  background-color: rgb(0 0 0 / 0.4);
+}
+
+.bg-black\/50{
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.bg-black\/60{
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.bg-glacial{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 249 250 / var(--tw-bg-opacity, 1));
+}
+
 .bg-\[url\(\)\]{
   background-image: url();
 }
@@ -715,6 +754,10 @@ html {
   padding: 0px;
 }
 
+.p-20{
+  padding: 5rem;
+}
+
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
@@ -725,14 +768,51 @@ html {
   padding-bottom: 0.5rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-7xl{
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
 .text-glacial{
   --tw-text-opacity: 1;
   color: rgb(248 249 250 / var(--tw-text-opacity, 1));
+}
+
+.text-midnight{
+  --tw-text-opacity: 1;
+  color: rgb(44 62 80 / var(--tw-text-opacity, 1));
+}
+
+.text-sunset{
+  --tw-text-opacity: 1;
+  color: rgb(228 168 81 / var(--tw-text-opacity, 1));
+}
+
+.opacity-40{
+  opacity: 0.4;
 }
 
 .logo {

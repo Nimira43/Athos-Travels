@@ -4,12 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  font-family: 'Playfair', serif;
-  font-weight: 300;
+@layer base {
+  html {
+    font-family: 'Playfair', serif;
+    font-weight: 300;
+  }
 }
 
 .logo { 
   font-family: 'Pacifico', cursive;
+  font-weight: lighter;
 }
 

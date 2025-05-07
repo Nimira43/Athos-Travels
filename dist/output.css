@@ -556,6 +556,11 @@ video {
   display: none;
 }
 
+html {
+  font-family: 'Playfair', serif;
+  font-weight: 300;
+}
+
 .sticky{
   position: sticky;
 }
@@ -566,6 +571,10 @@ video {
 
 .z-10{
   z-index: 10;
+}
+
+.ml-1{
+  margin-left: 0.25rem;
 }
 
 .ml-auto{
@@ -581,9 +590,19 @@ video {
   background-color: rgb(44 62 80 / var(--tw-bg-opacity, 1));
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-glacial{
@@ -591,12 +610,8 @@ video {
   color: rgb(248 249 250 / var(--tw-text-opacity, 1));
 }
 
-* {
-  font-family: 'Playfair', serif;
-  font-weight: 300;
-}
-
 .logo {
   font-family: 'Pacifico', cursive;
+  font-weight: lighter;
 }
 

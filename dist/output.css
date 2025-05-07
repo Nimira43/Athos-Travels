@@ -556,21 +556,37 @@ video {
   display: none;
 }
 
-.-bg--midnight{
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.flex{
+  display: flex;
+}
+
+.bg-midnight{
   --tw-bg-opacity: 1;
   background-color: rgb(44 62 80 / var(--tw-bg-opacity, 1));
 }
 
-.p-5{
-  padding: 1.25rem;
+.py-2{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.-text--glacial{
+.text-glacial{
   --tw-text-opacity: 1;
   color: rgb(248 249 250 / var(--tw-text-opacity, 1));
 }

@@ -35,7 +35,6 @@
         class="shadow-lg shadow-gray-500 rounded-lg"
         src="./images/Azenhas-do-Mar.jpg"
         alt="Azenhas-do-Mar"
-
       />
     </div>
     <div class="flex-grow text-center">
@@ -44,9 +43,25 @@
       Its whitewashed houses cascade down the rock face, creating a postcard-perfect scene. Known for its natural seawater
       pool, stunning ocean views, and rich history, it’s a hidden gem near Sintra. Azenhas do Mar offers a tranquil escape
       with a touch of Mediterranean charm.</p>
-            
+      <p class="text-2xl mt-8">£399 per person, per week</p>    
+      
+      <div class="mt-6 flex justify-center gap-8">
+        <!-- Number of People -->
+        <div class="flex flex-col items-center">
+          <label for="people" class="text-xl text-midnight font-semibold block">Number of People</label>
+          <input type="number" id="people" name="people" min="1"
+            class="w-20 p-2 border border-rock rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-sunset text-center" />
+        </div>
+      
+        <!-- Number of Weeks -->
+        <div class="flex flex-col items-center">
+          <label for="weeks" class="text-xl text-midnight font-semibold block">Number of Weeks</label>
+          <input type="number" id="weeks" name="weeks" min="1"
+            class="w-20 p-2 border border-rock rounded-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-sunset text-center" />
+        </div>
+      </div>
       <div>
-        <button class="bg-sunset text-midnight uppercase text-2xl px-3 py-2 font-bold hover:text-glacial view-btn"> Add Cart</button>
+        <button class="mt-8 bg-sunset text-midnight uppercase text-2xl px-3 py-2 font-bold hover:text-glacial view-btn"> Add to Cart</button>
       </div>
     </div>
 

@@ -598,8 +598,16 @@ html {
   margin-left: auto;
 }
 
+.mt-8{
+  margin-top: 2rem;
+}
+
 .flex{
   display: flex;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-\[calc\(100vh-48px\)\]{
@@ -734,6 +742,11 @@ html {
   line-height: 1;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -755,6 +768,11 @@ html {
 .text-sunset{
   --tw-text-opacity: 1;
   color: rgb(228 168 81 / var(--tw-text-opacity, 1));
+}
+
+.text-rock{
+  --tw-text-opacity: 1;
+  color: rgb(94 100 114 / var(--tw-text-opacity, 1));
 }
 
 .shadow-md{

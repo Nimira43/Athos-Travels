@@ -1,5 +1,5 @@
 window.SnipcartSettings = {
-    publicApiKey: CONFIG,
+    publicApiKey: CONFIG.publicApiKey,
     loadStrategy: 'on-user-interaction',
 }
 

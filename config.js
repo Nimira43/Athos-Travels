@@ -1,0 +1,4 @@
+const CONFIG = {
+  publicApiKey:
+    'ZGQ0NjI1NTQtNzE5OS00Yzc4LWI5ODYtMWYzMTcwYzhkZDkyNjM4ODM3ODg0ODkzMjQwNzEz',
+}
